@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page - 201</title>
+    <style>
+      body{
+        background-color:beige;
+      }
+
+      nav{
+        background-color: burlywood;
+      }
+
+      /* ul>li{
+        color: darkgreen;
+      } */
+
+      #contact-us{
+        color: red;
+      }
+
+      .nav-item{
+        color: darkgreen;
+        font-size: large;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Donuts World</h1>
+      <nav>
+        <ul>
+          <li class="nav-item">Home</li>
+          <li class="nav-item">About Us</li>
+          <li id="contact-us" class="nav-item">Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h3>Donuts Flavors</h3>
+      <ol>
+        <li>Eclair</li>
+        <li>Chocolate Bar</li>
+        <li>Sugar Dipped</li>
+        <li>Pink Frosted</li>
+      </ol>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script>
+      var userName = prompt('What is your name dude?');
+      console.log('The question : What is your name dude? The answer:', userName);
+      var favFlavor = prompt('What is your favorite flavor?', 'Chocolate Bar');
+      console.log(favFlavor);
+      alert('Welcome ' + userName + ' I see that you prefer ' + favFlavor);
+    </script>
+  </body>
+
+</html>
