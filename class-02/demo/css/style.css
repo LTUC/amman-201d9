@@ -1,0 +1,24 @@
+.eouropean-data {
+  color: blue;
+}
+
+.american-data {
+  color: red;
+}
+
+.japanese-data{
+  color:green;
+}
+
+#japanese-paragraph {
+  background-color: burlywood;
+}
+
+body{
+  background-color: bisque;
+}
+
+h1 {
+  font-family: fantasy;
+}
+
