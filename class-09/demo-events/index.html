@@ -1,0 +1,26 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <button id="action-trigger">Click Me!</button>
+    
+    <p id="paragraph"></p>
+
+    <script>
+      var button = document.getElementById('action-trigger');
+      button.addEventListener("click",showAlert);
+      button.addEventListener("mouseover",onMouseOver);
+
+      var p = document.getElementById('paragraph');
+      function showAlert(){
+        p.textContent = 'Button clicked';
+      }
+
+      function onMouseOver(){
+        p.textContent = 'Mouse was over the button!';
+      }
+
+    </script>
+  </body>
+</html>
